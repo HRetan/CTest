@@ -3,6 +3,9 @@
 
 using namespace std;
 
+//소수의 합 결과 : 효율성 0 정답 all
+//1초안에 10000000의 소수의 더한 값을 내야함
+
 bool Primes(vector<int>& vecPrime, int a)
 {
 	for (int i = 0; i < vecPrime.size(); ++i)
